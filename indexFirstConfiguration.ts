@@ -7,6 +7,8 @@ import dotenv from "dotenv";
 // Configuration the .env file
 dotenv.config();
 
+console.log("Process.env. ", process.env);
+
 // Create Express App
 const app: Express = express();
 const port: string | number = process.env.PORT || 8000;

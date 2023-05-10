@@ -9,6 +9,9 @@ dotenv.config();
 
 // Create Express App
 const app = express();
+/**
+ * in Node, to access to vars of ".env" use "process"
+ */
 const port = process.env.PORT || 8000;
 
 // Define first Route of APP
