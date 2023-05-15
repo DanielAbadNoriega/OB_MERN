@@ -24,7 +24,7 @@ rootRouter.get("/", (req: Request, res: Response) => {
   );
 });
 
-// Redirections to Routeres & Controllers
+// Redirections to Routers & Controllers
 server.use("/", rootRouter); // http://localhost:8000/api/
 server.use("/hello", helloRouter); // http://localhost:8000/api/hello --> HelloRouter
 // Add more routes

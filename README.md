@@ -127,9 +127,32 @@ $ npm i -D @types/jest
 $ npm i -D supertest
 ```
 
+- **serve:** helps you serve a static site, single page application or just a static file (no matter if on your device or on the local network). It also provides a neat interface for listing the directory's contents:
 
-- **:**
+```
+$ npm i -D serve
+```
+
+- **cors:** is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+
+```
+$ npm i cors
+```
+
+> We need also the @types/cors package to can use
+
+```
+$ npm i --save @types/cors
+```
+
+- **helmet:** helps secure Express apps by setting HTTP response headers.
+
+```
+$ npm i helmet
+``` 
+
+<!-- - **:**
 
 ```
 $ npm i -D
-```
+``` -->

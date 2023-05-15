@@ -7,7 +7,9 @@ import helmet from "helmet";
 // TODO HTTPS
 
 // Root Router
+// * Here we are using /routes/index.ts (it is implicit when it has an "index" file)
 import rootRouter from "../routes";
+
 
 // * Create Express App
 const server: Express = express();
